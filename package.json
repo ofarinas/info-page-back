@@ -1,6 +1,7 @@
 {
   "name": "info-page-back",
   "version": "0.0.1",
+  "private": true,
   "description": "",
   "author": "",
   "license": "MIT",
