@@ -9,5 +9,6 @@ export class ProjectController {
     @Get()
     getHello() {
         this.projectService.add();
+        return 'add';
     }
 }

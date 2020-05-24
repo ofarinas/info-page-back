@@ -9,8 +9,8 @@ export class ProjectService {
     }
 
     async add(project?: Project): Promise<void> {
-        const name = 'test';
-        const title = 'title';
+        const name = 'test44';
+        const title = 'title44';
         const newProject = new this.projectRepository({name, title});
         newProject.save();
     }
